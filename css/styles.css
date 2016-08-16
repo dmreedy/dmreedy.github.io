@@ -16,8 +16,8 @@ body {
     margin-bottom : 1%   ;
     margin-right  : 2%   ;
 
-    width : 6% ;
-    height: 6% ;
+    width : 90px ;
+    height: 90px ;
 }
 
 #name {
@@ -28,6 +28,7 @@ body {
 
 #navbarhr {
     border : 1px solid #5e459e ;
+    float  : none ;
 }
 
 .navbar {
@@ -46,6 +47,11 @@ body {
     margin-right     : 15px    ;
     text-decoration  : none    ;
     color            : #5e459e ;
+
+    -webkit-transition : background-color 0.25s ,
+                         color            0.25s  ;
+    transition         : background-color 0.25s ,
+                         color            0.25s  ;
 }
 
 .navbuttons:hover {
